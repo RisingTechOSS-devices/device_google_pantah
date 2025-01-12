@@ -45,6 +45,9 @@ TARGET_ENABLE_BLUR := true
 # Use Scudo instead of Jemalloc
 PRODUCT_USE_SCUDO := true
 
+#Ship Pixel Overlays
+WITH_PIXEL_OVERLAYS := true
+
 RISING_MAINTAINER=EliteDarkKaiser
 
 # Boot animation
