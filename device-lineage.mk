@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
 # Kernel
 TARGET_PREBUILT_KERNEL := device/google/pantah-kernel/Image.lz4
 
+# IWLAN
+PRODUCT_PACKAGES += \
+    Iwlan
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
